@@ -13,8 +13,10 @@ public class PruebaArbolC extends Thread {
         int valor;
         String Dato;
         
+        
         //variable de tipo random para invocar una funcion de nuemros aleatorios
         Random random = new Random();
+        
         
         //pido la cantidad de datos a insertar en el arbol de manera manual 
         System.out.println("Insertando los siguientes valores: ");
@@ -58,7 +60,7 @@ public class PruebaArbolC extends Thread {
  
        System.out.println("\ntiempo finalizado de: " + tiempoFinal );
        
-        System.out.println("\ntiempo finalizado de: " + tiempoFinal );
+        
         
         
     }
